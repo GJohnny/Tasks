@@ -1,0 +1,19 @@
+﻿@model ProductsViewModel
+@{
+    ViewBag.Title = "Warehouse";
+}
+<div>
+    <div class="container col-md-3">
+        <h2>Search</h2>
+        <span>
+            <input class="form-control" id="search-text" type="text" value="@ViewBag.Search" oninput="searchProduct()">
+        </span>
+        <a asp-controller="Home" asp-action="AdminWarehouse" asp-route-search="" class="btn-primary">Clear</a>
+
+    </div>
+</div>
+
+
+<div id="product-search">
+    @await Html.PartialAsync("_Products", Model);
+</div>

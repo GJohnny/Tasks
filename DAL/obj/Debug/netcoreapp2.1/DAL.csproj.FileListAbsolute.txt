@@ -1,0 +1,11 @@
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.json
+E:\Visual Studio 2017\Projects\BootCamp\ASP.NET\FincaUserProduct\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.dev.json

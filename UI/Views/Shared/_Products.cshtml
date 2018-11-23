@@ -1,0 +1,28 @@
+﻿@model ProductsViewModel
+
+<div id="products" class="container">
+
+    <h2>Products</h2>
+    <table class="table table-bordered col-md-3">
+        <thead>
+            <tr>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Product item in Model.Products)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                        <div class="float-right">
+                            <button type="button" class="btn btn-primary">
+                                Count <span class="badge badge-light">@item.Count</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

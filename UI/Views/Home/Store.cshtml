@@ -1,0 +1,42 @@
+﻿@model ProductsViewModel
+@{
+    ViewBag.Title = "Sotre";
+}
+
+<div class="container">
+    <h2>Products</h2>
+    <table class="table table-bordered col-md-4">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Product item in Model.Products)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td class="alert">
+                        @item.Count
+                        <div class="dropdown dropright float-right">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                Buy
+                            </button>
+                            <div class="dropdown-menu">
+                                <form id="countForm" asp-controller="Home" asp-action="Store"
+                                      asp-route-name="@item.Name" method="post">
+                                    <div class="form-group">
+                                        <label for="count">Count:</label>
+                                        <input asp-for="Count" class="form-control">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
